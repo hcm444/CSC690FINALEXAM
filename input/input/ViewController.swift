@@ -36,7 +36,7 @@ struct User {
     init(username: String?, password: String?, token: String? = nil) {
         self.username = username
         self.password = password
-        self.phone = phonenumber
+        //self.phone = phonenumber
     }
 }
 class ViewController: UIViewController {
